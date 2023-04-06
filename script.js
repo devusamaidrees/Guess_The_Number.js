@@ -2,7 +2,6 @@ const prompt=require("prompt-sync") ({sigint:true})
 let n
 let a=Math.floor(Math.random() * 100);
 let Attempt=0
-console.log("The number is :",a)
 while(true)
 {
     n=prompt("Enter a number :")
